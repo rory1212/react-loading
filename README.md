@@ -31,13 +31,13 @@ After version 1.7.4-alpha.2, the project was refactored with typescript.
 #### 🛠 Install
 
 ```
-npm install react-loadingg
+npm install react-loadinggg
 ```
 
 #### 📦 Use
 
 ```
-import { BoxLoading } from 'react-loadingg';
+import { BoxLoading } from 'react-loadinggg';
 
 <BoxLoading />;
 ```
