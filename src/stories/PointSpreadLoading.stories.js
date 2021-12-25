@@ -10,7 +10,7 @@ storiesOf('PointSpreadLoading', module)
     () => {
       let speed = 1;
       let size = radios(
-        '动画尺寸',
+        'Size',
         {
           'small': 'small',
           'default': 'default',
@@ -18,8 +18,8 @@ storiesOf('PointSpreadLoading', module)
         },
         'default'
       );
-      speed = number('动画速度(s)')
-      let color = text('颜色')
+      speed = number('Speed (Sec)')
+      let color = text('Color')
       return (
         <Container>
           <PointSpreadLoading color={color} size={size} speed={speed}></PointSpreadLoading>

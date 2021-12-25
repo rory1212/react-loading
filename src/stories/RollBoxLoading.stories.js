@@ -11,7 +11,7 @@ storiesOf('RollBoxLoading', module)
       let speed = 2;
       let color = '';
       let size = radios(
-        '动画尺寸',
+        'Size',
         {
           'small': 'small',
           'default': 'default',
@@ -19,8 +19,8 @@ storiesOf('RollBoxLoading', module)
         },
         'default'
       );
-      speed = number('动画速度(s)');
-      color = text('颜色');
+      speed = number('Speed (Sec)');
+      color = text('Color');
       return (
         <Container>
           <RollBoxLoading speed={speed} color={color} size={size}></RollBoxLoading>

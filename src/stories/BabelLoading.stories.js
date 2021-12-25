@@ -14,7 +14,7 @@ storiesOf('BabelLoading', module)
       let speed = 1;
       let color = '';
       let size = radios(
-        '动画尺寸',
+        'Size',
         {
           'small': 'small',
           'default': 'default',
@@ -23,8 +23,8 @@ storiesOf('BabelLoading', module)
         'default'
       );
 
-      speed = number('动画速度(s)')
-      color = text('颜色')
+      speed = number('Speed (Sec)')
+      color = text('Color')
       return (
         <Container>
           <BabelLoading size={size} speed={speed} color={color}></BabelLoading>

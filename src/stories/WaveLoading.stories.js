@@ -8,9 +8,9 @@ storiesOf('WaveLoading', module)
   .add('WaveLoading', () => {
     let color = '';
     let speed = 1.2;
-    color = text('颜色')
+    color = text('Color')
     let size = radios(
-      '动画尺寸',
+      'Size',
       {
         'small': 'small',
         'default': 'default',
@@ -18,7 +18,7 @@ storiesOf('WaveLoading', module)
       },
       'default'
     );
-    speed = number('动画速度(s)')
+    speed = number('Speed (Sec)')
     return (
       <Container>
         <WaveLoading speed={speed} size={size} color={color} ></WaveLoading>

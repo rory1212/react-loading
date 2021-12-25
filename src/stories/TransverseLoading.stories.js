@@ -8,10 +8,10 @@ storiesOf('TransverseLoading', module)
   .add('TransverseLoading', () => {
 
     let color = '';
-    let speed = number('动画速度(s)');
-    color = text('颜色');
+    let speed = number('Speed (Sec)');
+    color = text('Color');
     let size = radios(
-      '动画尺寸',
+      'Size',
       {
         'small': 'small',
         'default': 'default',

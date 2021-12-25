@@ -9,10 +9,10 @@ storiesOf('ThreeHorseLoading', module)
     'ThreeHorseLoading',
     () => {
       let speed = 1;
-      speed = number('动画速度(s)')
-      let color = text('颜色')
+      speed = number('Speed (Sec)')
+      let color = text('Color')
       let size = radios(
-        '动画尺寸',
+        'Size',
         {
           'small': 'small',
           'default': 'default',
