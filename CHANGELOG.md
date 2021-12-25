@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.8.0](https://github.com/rory1212/react-loading/compare/v1.7.2...v1.8.0) (2021-12-25)
+
+
+### Features
+
+* react version 17 ([feebba5](https://github.com/rory1212/react-loading/commit/feebba5e729e697df9d8c12b032020b2a47ac924))
+
+
+### Bug Fixes
+
+* readme ([ee69e4a](https://github.com/rory1212/react-loading/commit/ee69e4a01054234fee4400791d9c10ef6f78fa5f))
+
 ### [1.7.2](https://github.com/sixiaodong123/react-loading/compare/v1.7.1...v1.7.2) (2020-03-11)
 
 
