@@ -1,6 +1,6 @@
 {
-  "name": "react-loadingg",
-  "version": "1.7.2",
+  "name": "react-loadinggg",
+  "version": "1.7.3",
   "description": "A React component library.",
   "main": "lib/index.js",
   "publishConfig": {
@@ -9,7 +9,7 @@
   "author": "Andy",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sixiaodong123/react-loading.git"
+    "url": "git+https://github.com/rory1212/react-loading.git"
   },
   "license": "MIT",
   "scripts": {
@@ -63,7 +63,7 @@
     "cross-env": "^6.0.3",
     "css-loader": "^1.0.0",
     "enzyme": "^3.9.0",
-    "enzyme-adapter-react-16": "^1.10.0",
+    "@wojtekmaj/enzyme-adapter-react-17": "^0.6.6",
     "husky": "^3.0.1",
     "jest": "^24.3.1",
     "less": "^3.9.0",
@@ -76,8 +76,8 @@
     "pre-commit": "^1.2.2",
     "pre-push": "^0.1.1",
     "prop-types": "^15.7.2",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
     "sass-loader": "^7.1.0",
     "standard-version": "^8.0.1",
     "style-loader": "^0.23.1",
@@ -90,7 +90,7 @@
     "styled-components": "^4.3.2"
   },
   "peerDependencies": {
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   }
 }

@@ -1,7 +1,7 @@
 import {
   configure, shallow, render, mount,
 } from 'enzyme';
-import Adapter from 'enzyme-adapter-react-16';
+import Adapter from '@wojtekmaj/enzyme-adapter-react-17';
 import React from 'react';
 
 // Make Enzyme functions available in all test files without importing
